@@ -6,6 +6,7 @@ This is an official repo of the paper "**Causal Speech Enhancement Based on a Tw
 
 ## Update:  
 * **2024.09.24** Upload codes  
+* **2024.10.14** Upload demo samples  
 
 ## Requirements 
 This repo is tested with Ubuntu 22.04, PyTorch 2.0.4, Python3.10, and CUDA12.2. For package dependencies, you can check: requirements.txt  
@@ -38,8 +39,35 @@ noisy_dirs_for_valid = '../Dataset/valid/noisy/'
 
 
 ## Demo
-will be updated soon.
+More demo samples can be found [here](https://github.com/seorim0/SE-using-SRL-Model/blob/main/demo/).  
 
+- Clean  
+
+https://github.com/user-attachments/assets/91f1d067-184c-4035-8ea0-a3c08c1e93c0
+
+
+
+- Noisy  
+
+https://github.com/user-attachments/assets/737f82cd-bb07-4f20-ab21-70f9a870c9fc
+
+
+
+- NUNet-TLS  
+
+https://github.com/user-attachments/assets/faffda76-62e0-4ba1-a1d6-161e9ffe0449
+
+
+- Proposed (without two-stage learning)  
+
+https://github.com/user-attachments/assets/8d747c75-4578-4fbd-8d7b-fb3377a70918
+
+
+- Proposed  
+
+https://github.com/user-attachments/assets/abdeaac9-f4e3-418f-9c1c-7d2b9b2c4cfb
+
+  
  
 ## References   
 **Monoaural Speech Enhancement Using a Nested U-Net with Two-Level Skip Connections**   
